@@ -1,0 +1,23 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul {
+    padding-left: 0;
+    margin: 1rem 0;
+}
+.text-modifier {
+    margin: 1rem 0; 
+    padding: 1rem;
+    background-color: #80808075;
+}
+li.removed {
+    text-decoration: line-through;
+    color: gray;
+}
+li.removed:hover {
+    text-decoration: line-through;
+}
