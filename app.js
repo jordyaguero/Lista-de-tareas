@@ -23,6 +23,8 @@ let app = new Vue({
             });
             this.newTarea = '';
         },
-        eliminar()
+        eliminar(tarea) {
+            this.tareas.splice(tarea, 1);
+        }
     }
 });
